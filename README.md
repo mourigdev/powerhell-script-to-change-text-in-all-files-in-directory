@@ -42,6 +42,7 @@ foreach ($file in $files) {
     $updatedContent | Set-Content -Path $file.FullName
 }
 
+## Explain
 
 The script retrieves all JavaScript, CSS, and HTML files within the specified folder and its subdirectories. It replaces the specified text with the new text in each file.
 
