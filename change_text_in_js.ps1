@@ -1,9 +1,9 @@
 # Set the folder path
-$folderPath = "C:\Users\abmou\Documents\GitHub\Edukids\src"
+$folderPath = "mourigdev\Documents\GitHub\"
 
 # Set the old and new text to replace
-$oldText = "Flexwijs"
-$newText = "edukids"
+$oldText = "oldtext"
+$newText = "newText"
 
 # Get all JavaScript files within the folder path
 $jsFiles = Get-ChildItem -Path $folderPath -Filter "*.js" -File -Recurse
